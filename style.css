@@ -1,6 +1,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -13,7 +14,8 @@ body {
 
 
 }
-.main-pic{
+
+.main-pic {
     width: 100%;
 }
 
@@ -29,52 +31,59 @@ header h1 {
     text-align: left;
     margin-left: 100px;
 }
-.headings p{
+
+.headings p {
     font-size: 20px;
     text-align: left;
-    width: 600px; 
-    white-space:nowrap;
+    width: 600px;
+    white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;  
+    text-overflow: ellipsis;
 }
-.header a{
-    color:whitesmoke;
+
+.header a {
+    color: whitesmoke;
     text-decoration: none;
     padding: 10px 30px;
     background-color: rgb(238, 8, 8);
     border-radius: 5px;
-    
-    
+
+
 }
+
 /* MAIN SECTION */
-.container{
+.container {
     margin-top: 0;
     margin-right: 10%;
     align-items: center;
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.buttons{
+
+.buttons {
     position: absolute;
     width: 180px;
-    height: 150px; 
+    height: 150px;
     background-color: black;
     padding: 20px;
     margin-top: 0;
-    margin-left: 250px; 
+    margin-left: 250px;
     border-radius: 5px;
 }
-.button{
+
+.button {
     display: flex;
     flex-direction: column;
     position: absolute;
     width: 180px;
-   height: 200px;
+    height: 200px;
 }
-.buttons a{
+
+.buttons a {
     color: black;
     background-color: white;
     padding: 0px 5px 5px 5px;
@@ -83,26 +92,31 @@ main{
     text-decoration: none;
     margin: 10px;
 }
-#blog-button{
+
+#blog-button {
     color: #FFFFFF;
     background-color: red;
 }
-.blogs , .matches {
+
+.blogs,
+.matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
-    margin-left:520px;
+    margin-left: 520px;
     margin-right: 100px;
     margin-top: 0;
 }
-.blog{
+
+.blog {
     margin-bottom: 10px;
     width: 312px;
     height: 375px;
     border: 1px solid whitesmoke;
     border-radius: 10px;
 }
-.blog-banner img{
+
+.blog-banner img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 312px;
@@ -110,24 +124,28 @@ main{
     padding: 0;
     margin-bottom: 10px;
 }
-.blog-details{
+
+.blog-details {
     padding: 10px;
 }
-.match-duration{
+
+.match-duration {
     display: flex;
     padding-bottom: 10px;
     justify-content: space-around;
     margin-right: 50%;
 }
-.live-button{
+
+.live-button {
     color: black;
     font-size: 14px;
     border: 2px solid gray;
     border-radius: 5px;
     padding: 5px;
     margin-top: 5px;
-    text-decoration: none;  
+    text-decoration: none;
 }
+
 /* SECOND PAGE STYLES */
 .match {
     border: 1px solid rgb(210, 210, 210);
@@ -152,6 +170,7 @@ main{
 /*  Footer  */
 .footer {
     background-color: black;
+    margin: 0;
     margin-top: 100px;
 
 }
@@ -175,7 +194,7 @@ hr {
 .menu {
 
     text-align: center;
-    display:grid;
+    display: grid;
     justify-content: space-evenly;
     padding: 0 200px;
     margin-top: 30px;
